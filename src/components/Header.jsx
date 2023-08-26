@@ -3,8 +3,6 @@ import { Box, Typography, useTheme } from "@mui/material";
 
 
 
-
-
 const Header = ({title, subTitle, isDashboard=false}) => {
   const theme = useTheme();
   return (

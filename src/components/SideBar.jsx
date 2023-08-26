@@ -88,6 +88,11 @@ const arr1 = [
     "path": "/team"
   },
   {
+    "text": "Scholarships Approval",
+    "icon": <ReceiptOutlined />,
+    "path": "/scholarships-approval"
+  },
+  {
     "text": "Contacts Information",
     "icon": <ContactsOutlined />,
     "path": "/contacts"

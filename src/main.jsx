@@ -17,6 +17,7 @@ import Calendar from './pages/calendar/Calendar.jsx';
 import Faq from './pages/faq/Faq.jsx';
 import PieChart from './pages/PieChart/PieChart.jsx';
 import LineChart from './pages/lineChart/LineChart.jsx';
+import ScholarshipApproval from './pages/ScholarshipApproval/ScholarshipApproval.jsx';
 
 
 
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index path="/" element={<Dashboard/>}/>
+      <Route index path="/scholarships-approval" element={<ScholarshipApproval/>}/>
       <Route path="team" element={<Teams/>}/>
       <Route path="contacts" element={<Contacts/>}/>
       <Route path="invoices" element={<Invoices/>}/>
